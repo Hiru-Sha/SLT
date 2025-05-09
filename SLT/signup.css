@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  gap: 30px;
+  align-items: center;
+}
+
+.image-section img {
+  width: 400px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.form-section {
+  background-color: #0053A0;
+  border-radius: 20px;
+  padding: 40px 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.form-section h2 {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.form-grid {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.label-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 14px;
+  padding-right: 20px;
+  border-right: 2px solid white;
+  justify-content: center;
+}
+
+
+.label-group label {
+  margin-bottom: 18px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 20px;
+}
+
+.input-group input {
+  height: 40px;
+  width: 200px;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+
+button {
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  color: #0053A0;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-left: auto; /* Push to right */
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}

@@ -7,9 +7,10 @@
 
 body {
   background-color: #f3f6fb;
-  background-image: url("images/back.png"); /* Updated background image */
-  background-size:cover;
-  background-repeat: no-repeat;
+  background-image: url("images/back.png");
+  background-size: 1000px auto;          /* Adjust image size */
+  background-repeat: no-repeat;         /* Prevent tiling */
+  background-position: bottom right;    /* Position in the right corner */
   min-height: 100vh;
   padding-bottom: 30px;
 }
@@ -18,7 +19,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100vh;ssss
 }
 
 /* Header */
